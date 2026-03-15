@@ -251,10 +251,10 @@ export default function Home() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
             {[
-              { metric: "200%", label: "Traffic Growth" },
-              { metric: "3x", label: "Lead Generation" },
-              { metric: "Higher", label: "Conversion Rates" },
-              { metric: "Improved", label: "ROI" }
+              { metric: "High", label: "Traffic Growth" },
+              { metric: "High", label: "Lead Generation" },
+              { metric: "High", label: "Conversion Rates" },
+              { metric: "High", label: "ROI" }
             ].map((stat, idx) => (
               <motion.div
                 key={idx}
