@@ -298,7 +298,7 @@ export default function Home() {
       <section id="strategy" className="py-24 bg-brand-dark text-white text-center">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div {...fadeUp}>
-            <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">Hire your demand today</h2>
+            <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">Know your demand today</h2>
             <p className="text-xl text-brand-accent-light mb-10 max-w-2xl mx-auto">
               Ready to see what Strategic Intelligence can do for your business? Let's get strated.
             </p>
@@ -350,7 +350,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div className="text-center max-w-3xl mx-auto mb-16" {...fadeUp}>
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-brand-dark mb-6">Let’s Build Your Growth Strategy</h2>
-            <p className="text-gray-600 text-lg">Schedule a call to know your potential today.</p>
+            <p className="text-gray-600 text-lg">Reach us, to know your potential atleast by today.</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
