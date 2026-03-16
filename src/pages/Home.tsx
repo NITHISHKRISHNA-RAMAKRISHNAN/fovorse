@@ -55,7 +55,7 @@ export default function Home() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold tracking-tight mb-8 leading-tight">
-              We don't run the campaigns <br className="hidden md:block" />
+              We don't just run campaigns <br className="hidden md:block" />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent-light to-white">
                 we create demands
               </span>
@@ -125,7 +125,7 @@ export default function Home() {
               },
               {
                 icon: <Cpu className="w-8 h-8" />,
-                title: "AI Marketing",
+                title: "AI Automation",
                 items: ["AI-based automation", "Smart campaign optimization", "Predictive analytics", "Personalization engines"]
               },
               {
@@ -166,11 +166,11 @@ export default function Home() {
       </section>
 
       {/* 4. Our Growth Framework */}
-      <section id="framework" className="py-24 bg-white">
+      <section id="Approach" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div className="text-center max-w-3xl mx-auto mb-16" {...fadeUp}>
             <h2 className="text-brand-accent font-semibold tracking-wider uppercase text-sm mb-3">Methodology</h2>
-            <h3 className="text-4xl font-serif font-bold text-brand-dark mb-6">Our Growth Framework</h3>
+            <h3 className="text-4xl font-serif font-bold text-brand-dark mb-6">Our Growth Approach</h3>
             <p className="text-gray-600 text-lg">A systematic 5-step process to scale your business predictably.</p>
           </motion.div>
 
@@ -251,9 +251,9 @@ export default function Home() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
             {[
-              { metric: "High", label: "Traffic Growth" },
+              { metric: "Max", label: "Traffic Growth" },
               { metric: "High", label: "Lead Generation" },
-              { metric: "High", label: "Conversion Rates" },
+              { metric: "Max", label: "Conversion Rates" },
               { metric: "High", label: "ROI" }
             ].map((stat, idx) => (
               <motion.div
@@ -285,8 +285,8 @@ export default function Home() {
                 </div>
                 <div className="p-8 sm:w-3/5 flex flex-col justify-center">
                   <div className="text-sm font-bold text-brand-accent mb-2">CASE STUDY</div>
-                  <h4 className="text-xl font-bold text-brand-dark mb-3">E-commerce Brand Scaling</h4>
-                  <p className="text-gray-600 mb-4">How we implemented AI-driven campaigns to triple revenue in 6 months.</p>
+                  <h4 className="text-xl font-bold text-brand-dark mb-3">Conversion based web development</h4>
+                  <p className="text-gray-600 mb-4">How we implemented AI-driven strategies and analytics to make higher conversion results.</p>
                 </div>
               </motion.div>
             ))}
@@ -298,9 +298,9 @@ export default function Home() {
       <section id="strategy" className="py-24 bg-brand-dark text-white text-center">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div {...fadeUp}>
-            <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">Start Your Growth Journey Today</h2>
+            <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">Hire your demand today</h2>
             <p className="text-xl text-brand-accent-light mb-10 max-w-2xl mx-auto">
-              Ready to see what Strategic Intelligence can do for your business? Let's talk.
+              Ready to see what Strategic Intelligence can do for your business? Let's get strated.
             </p>
           </motion.div>
         </div>
@@ -350,7 +350,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div className="text-center max-w-3xl mx-auto mb-16" {...fadeUp}>
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-brand-dark mb-6">Let’s Build Your Growth Strategy</h2>
-            <p className="text-gray-600 text-lg">Reach out to us today to discuss how we can help your business scale.</p>
+            <p className="text-gray-600 text-lg">Schedule a call to know your potential today.</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -365,7 +365,7 @@ export default function Home() {
                 <Mail className="w-8 h-8" />
               </div>
               <h3 className="text-lg font-bold text-brand-dark mb-2">Email Us</h3>
-              <p className="text-gray-600 leading-relaxed">fovorseintelligence@gmail.com</p>
+              <p className="text-gray-600 leading-relaxed">fovorse@gmail.com</p>
             </motion.div>
 
             <motion.div 
