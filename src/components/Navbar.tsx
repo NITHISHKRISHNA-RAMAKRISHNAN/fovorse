@@ -39,7 +39,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <a href="#home" className="z-50">
-            <Logo variant={isScrolled ? "dark" : "light"} />
+            <img src="/logo.png" alt="Fovorse Logo" className="h-12 w-auto" />
           </a>
 
           {/* Desktop Menu */}
