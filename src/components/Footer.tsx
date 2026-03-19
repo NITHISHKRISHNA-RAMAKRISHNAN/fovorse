@@ -1,5 +1,4 @@
 import { Mail, Phone, MapPin } from "lucide-react";
-import { Logo } from "./Logo";
 
 export default function Footer() {
   return (
@@ -8,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 md:col-span-2">
             <a href="#home" className="inline-block mb-6">
-              <Logo variant="light" />
+              <img src="/logo.png" alt="Fovorse Logo" className="h-12 w-auto" />
             </a>
             <p className="text-gray-400 max-w-sm leading-relaxed">
               Driving business growth through strategy, data, and AI-driven marketing solutions.
@@ -30,11 +29,11 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-center gap-3 text-gray-400">
                 <Mail className="w-5 h-5 text-brand-accent-light" />
-                fovorse@gmail.com
+                <a href="mailto:fovorse@gmail.com" className="hover:underline"> fovorse@gmail.com </a>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <Phone className="w-5 h-5 text-brand-accent-light" />
-                +91 63831 20945
+                <a href="tel:+91 63831 20945" className="hover:underline"> +91 63831 20945 </a>
               </li>
               <li className="flex items-start gap-3 text-gray-400">
                 <MapPin className="w-5 h-5 text-brand-accent-light shrink-0 mt-1" />
