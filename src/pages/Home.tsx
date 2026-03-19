@@ -207,7 +207,7 @@ export default function Home() {
       </section>
 
       {/* 5. Key Strengths Section */}
-      <section id="strengths" className="py-24 bg-brand-dark text-white">
+      <section id="Appoarch" className="py-24 bg-brand-dark text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div className="text-center max-w-3xl mx-auto mb-16" {...fadeUp}>
             <h2 className="text-brand-accent-light font-semibold tracking-wider uppercase text-sm mb-3">Why Choose Us</h2>
