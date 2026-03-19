@@ -166,7 +166,7 @@ export default function Home() {
       </section>
 
       {/* 4. Our Growth Framework */}
-      <section id="Approach" className="py-24 bg-white">
+      <section id="Apporach" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div className="text-center max-w-3xl mx-auto mb-16" {...fadeUp}>
             <h2 className="text-brand-accent font-semibold tracking-wider uppercase text-sm mb-3">Methodology</h2>
