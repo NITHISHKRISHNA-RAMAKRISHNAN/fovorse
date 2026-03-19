@@ -1,14 +1,13 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import { Logo } from "./Logo";
 
 const links = [
-  { name: "Home", path: "#home" },
-  { name: "About", path: "#about" },
-  { name: "Services", path: "#services" },
-  { name: "Appoarch", path: "#Appoarch" },
-  { name: "Results", path: "#results" },
-  { name: "FAQ", path: "#faq" },
+  { name: "Home", path: "/#home" },
+  { name: "About", path: "/#about" },
+  { name: "Services", path: "/#services" },
+  { name: "Appoarch", path: "/#Appoarch" },
+  { name: "Results", path: "/#results" },
+  { name: "FAQ", path: "/#faq" },
 ];
 
 export default function Navbar() {
